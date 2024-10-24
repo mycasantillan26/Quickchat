@@ -1,0 +1,54 @@
+/* src/components/AppBar.css */
+.appbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and buttons */
+    align-items: center; /* Center items vertically */
+    position: fixed; /* Fixes the AppBar to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Keep it on top */
+}
+
+.logo-section {
+    flex: 1; /* Take up half of the AppBar */
+    background-color: rgb(236, 245, 247);/* AppBar color for the left side */
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+    padding: 10px 20px; /* Add padding */
+}
+
+.app-name {
+    font-weight: bold; /* Make the text bold */
+    color: rgb(65, 148, 180); /* Set the text color to blue */
+    margin-left: 1px; /* Add some space between the logo and the text */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.button-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    background-color: rgb(65, 148, 180); 
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.logo {
+    max-height: 50px;
+    width: auto; 
+}
+
+.button {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px;
+    background-color: transparent; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    margin-left: 10px; 
+    font-family:'fantasy';
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+}

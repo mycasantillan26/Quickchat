@@ -1,0 +1,113 @@
+/* src/Authentication/Register.css */
+
+.register-container {
+    display: flex;
+    height: 100%;
+    background-color: #f8f8f8;
+}
+
+
+.left-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sign-in-btn {
+    background-color: transparent;
+    border: 2px solid #54B4E3;
+    color: #54B4E3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: #54B4E3;
+    color: white;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #54B4E3; /* Updated background color */
+}
+.register-form {
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.register-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-group2 {
+    margin-bottom: 15px;
+    margin-top: 11px;
+    gap: 10px;
+    margin-right: 21px;
+  
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #54B4E3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #2286B8;
+    text-align: center;
+    background-image: url('../images/communicate5.jpg'); 
+    background-size: 61%; /* Set background size to 61% */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; /* Make sure it occupies full height */
+    width: 100%; /* Make sure it occupies full width */
+    background-color: #f9f9f9;
+    margin-top: 31px;
+}

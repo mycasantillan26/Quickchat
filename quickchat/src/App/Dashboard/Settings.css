@@ -1,0 +1,43 @@
+.notifications-page {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.notifications-layout {
+    display: flex; /* Use flexbox for sidebar and notifications */
+    flex: 1; /* Take the remaining space */
+}
+
+.notifications-container {
+    padding: 20px; /* Add some padding */
+    background-color: #f4f4f4; /* Background color for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    flex: 1; /* Make this take the remaining space */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.notification-container2 {
+    padding: 20px;
+    background-color: #f4f4f4; /* Consistent background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    height: 15vh; /* Fixed height */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.notifications-container h2 {
+    text-align: center;
+}
+
+.notifications-container p {
+    text-align: center;
+    font-size: 18px;
+}

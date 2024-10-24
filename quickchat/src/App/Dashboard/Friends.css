@@ -1,0 +1,39 @@
+/* Friends.css */
+.notifications-container {
+    padding: 20px;
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.cards-container {
+    display: flex; 
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    gap: 10px; /* Space between cards */
+}
+
+.user-card {
+    width: 200px; /* Adjust width as necessary */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-image {
+    width: 50px; /* Size for profile images */
+    height: 50px; /* Size for profile images */
+    border-radius: 50%; /* Circular image */
+}
+
+.user-info h3 {
+    margin: 10px 0 5px 0; /* Space between name and age */
+}
+
+.user-info p {
+    margin: 0; /* Remove default margin */
+}

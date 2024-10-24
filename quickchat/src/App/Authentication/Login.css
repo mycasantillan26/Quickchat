@@ -1,0 +1,98 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.form-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #54B4E3;
+}
+
+.image-section {
+    flex: 1;
+    position: relative;
+}
+
+.image-background {
+    background-image: url('../images/communicate4.jpg'); /* Use the correct path for your image */
+    background-size: cover;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+
+.text-overlay {
+    color: #2286B8;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    top: 11px;
+}
+
+.welcome-text {
+    font-size: 41px;
+    font-weight: bold;
+   
+}
+
+.journey-text {
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.signup-button {
+    padding: 10px 20px;
+    border: 2px solid #54B4E3;
+    border-radius: 5px;
+    background-color: white;
+    color: #54B4E3;
+    cursor: pointer;
+}
+
+.login-box {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

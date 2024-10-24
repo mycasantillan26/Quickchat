@@ -1,0 +1,10 @@
+.heart {
+    color: grey;  
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Add a pointer cursor for better UX */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.heart.red {
+    color: red; /* Change color when liked */
+}

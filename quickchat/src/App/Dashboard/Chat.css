@@ -1,0 +1,117 @@
+.notifications-page {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.notifications-layout {
+    display: flex; /* Use flexbox for sidebar and notifications */
+    flex: 1; /* Take the remaining space */
+}
+
+.notifications-container {
+    padding: 20px; /* Add some padding */
+    background-color: #f4f4f4; /* Background color for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    flex: 1; /* Make this take the remaining space */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.notification-container2 {
+    padding: 20px;
+    background-color: #f4f4f4; /* Consistent background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    height: 15vh; /* Fixed height */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.notifications-container h2 {
+    text-align: center;
+}
+
+.notifications-container p {
+    text-align: center;
+    font-size: 18px;
+}
+.chats-page {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.chats-layout {
+    display: flex; /* Use flexbox for sidebar and chat list */
+    flex: 1; /* Take the remaining space */
+}
+
+.chats-container {
+    padding: 20px; /* Add padding around the chat list */
+    background-color: #f4f4f4; /* Background color for the chat container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex: 1; /* Make the container take the remaining space */
+    overflow-y: auto; /* Allow scrolling if chats exceed screen height */
+}
+
+.chats-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between chat items */
+}
+
+.chat-item {
+    display: flex;
+    align-items: center; /* Align content vertically */
+    background-color: #54B4E3; /* Background color for each chat item */
+    padding: 15px; /* Padding inside each chat item */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for chat items */
+    color: white; /* Text color for contrast */
+    transition: background-color 0.3s ease; /* Smooth background change on hover */
+}
+
+.chat-item:hover {
+    background-color: #4799c6; /* Darker shade on hover */
+}
+
+.chat-profile-image {
+    width: 50px; /* Set profile image width */
+    height: 50px; /* Set profile image height */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Ensure the image fits the container without distortion */
+    margin-right: 15px; /* Add space between the image and text */
+}
+
+.chat-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .chat-item {
+        padding: 10px;
+    }
+
+    .chat-profile-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chat-name {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,43 @@
+.notifications-page {
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+}
+
+.notifications-layout {
+    display: flex;
+    flex: 1; 
+}
+
+.notifications-container {
+    padding: 20px; 
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.notification-container2 {
+    padding: 20px;
+    background-color: #f4f4f4; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    height: 15vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.notifications-container h2 {
+    text-align: center;
+}
+
+.notifications-container p {
+    text-align: center;
+    font-size: 18px;
+}

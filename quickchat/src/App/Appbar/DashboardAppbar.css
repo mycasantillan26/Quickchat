@@ -1,0 +1,75 @@
+.appbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: #54B4E3;
+}
+
+.logo-section2 {
+    display: flex;
+    align-items: center;
+    background-color: #ECF6F9;
+}
+
+.app-name {
+    font-weight: bold;
+    color: rgb(65, 148, 180);
+    margin-left: 1px;
+    font-size: 24px;
+    background-color: #ECF6F9;
+}
+
+.search-section {
+    flex-grow: 2; 
+    display: flex;
+    width:51px;
+    justify-content: left;
+}
+
+.search-input {
+    width: 50px;
+    padding: 8px;
+    border-radius: 31px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; 
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #888; 
+    text-align: left;
+}
+
+.welcome-section {
+    text-align: right;
+    color: rgb(1, 13, 14);
+    font-size: 12px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-circle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 31px;
+}
+
+.user-image {
+    width: 100%;
+    height: auto;
+}

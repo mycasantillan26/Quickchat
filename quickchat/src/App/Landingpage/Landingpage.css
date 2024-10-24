@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.app-title {
+    font-size: 51px;
+    font-weight: bold;
+    color: #2286B8;
+    -webkit-text-stroke: 1px #2181B1;
+}
+
+.app-description {
+    font-size: 31px;
+    color: #2286B8;
+    font-weight: normal;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.communicate {
+    width: 85%;
+    height: auto;
+    max-height: 100%;
+    margin-left: 10px;
+}

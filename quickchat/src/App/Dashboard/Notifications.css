@@ -1,0 +1,61 @@
+.notifications-page {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.notifications-layout {
+    display: flex; /* Use flexbox for sidebar and notifications */
+    flex: 1; /* Take the remaining space */
+}
+
+.notifications-container {
+    padding: 20px; /* Add some padding */
+    background-color: #f4f4f4; /* Background color for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    flex: 1; /* Make this take the remaining space */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.notifications-container2 {
+    padding: 20px;
+    display: flex; /* Use flexbox for notifications */
+    flex-direction: column; /* Align items in a column */
+    align-items: stretch; /* Make notifications stretch to fill width */
+   
+}
+
+.notifications-container h2 {
+    text-align: center;
+}
+
+.notifications-container p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.notification-item {
+    display: flex;
+    align-items: center; /* Align the image and text vertically centered */
+    margin-bottom: 15px; /* Space between each notification */
+    padding: 10px; /* Padding inside the notification */
+    border-radius: 8px; /* Rounded corners for each notification */
+    background-color: #54B4E3; /* Individual background color for each notification */
+    color: white; /* Text color to ensure readability */
+}
+
+.profile-image {
+    width: 40px; /* Set the profile image width */
+    height: 40px; /* Set the profile image height */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 10px; /* Space between the image and text */
+}
+
+.notification-text {
+    font-size: 16px;
+    color: #fff; /* Adjust the text color for visibility against the background */
+}
